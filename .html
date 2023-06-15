@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    .calculator {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" readonly>
+    <div>
+      <button class="btn btn-primary number">1</button>
+      <button class="btn btn-primary number">2</button>
+      <button class="btn btn-primary number">3</button>
+      <button class="btn btn-primary operation">+</button>
+    </div>
+    <div>
+      <button class="btn btn-primary number">4</button>
+      <button class="btn btn-primary number">5</button>
+      <button class="btn btn-primary number">6</button>
+      <button class="btn btn-primary operation">-</button>
+    </div>
+    <div>
+      <button class="btn btn-primary number">7</button>
+      <button class="btn btn-primary number">8</button>
+      <button class="btn btn-primary number">9</button>
+      <button class="btn btn-primary operation">*</button>
+    </div>
+    <div>
+      <button class="btn btn-primary number">0</button>
+      <button class="btn btn-primary" id="calculate">=</button>
+      <button class="btn btn-primary operation">/</button>
+      <button class="btn btn-primary operation">%</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
